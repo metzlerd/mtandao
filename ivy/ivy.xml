@@ -1,0 +1,23 @@
+<ivy-module version="2.0">
+  <info organisation="edu.isi" module="mavuno" revision="${version}"/>
+  <publications>
+    <artifact type="pom" ext="pom" conf="default"/>
+    <artifact type="jar" ext="jar" conf="default"/>
+  </publications>
+
+  <dependencies>
+
+    <!-- Commons CLI -->
+    <dependency org="commons-cli" name="commons-cli" rev="1.2" />
+
+    <!-- Simple Logging Facade for Java (SLF4J) -->
+    <dependency org="org.slf4j" name="slf4j-simple" rev="1.6.3" />
+
+    <!-- Scribe -->
+    <dependency org="org.scribe" name="scribe" rev="1.2.3" />
+
+    <!-- Indri JNI API -->
+    <dependency org="edu.umass" name="indri" rev="5.1" />
+
+  </dependencies>
+</ivy-module>
